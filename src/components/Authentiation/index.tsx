@@ -115,6 +115,9 @@ const Authentication = () => {
   const SigUpWithEmail = () => {
     setScreen(2);
   };
+  // const SigUpWithEmail = () => {
+  //   setScreen(2);
+  // };
 
   const RenderModalScreens = (screen) => {
     switch (screen) {
