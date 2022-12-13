@@ -1,12 +1,15 @@
-import logo from "./logo.svg";
+
 import "./App.css";
-import React, { lazy, Suspense, useEffect, useState } from "react";
+import React, {  Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { webRoutes } from "routes";
 const App = () => {
   return (
     <div className="App">
       <Router>
+
+
+        
         <Suspense fallback={<div>loding....</div>}>
           <Routes>
             {webRoutes.map((rt, index) => {
